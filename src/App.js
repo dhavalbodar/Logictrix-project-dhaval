@@ -11,13 +11,14 @@ function App() {
   return (
     <>
       <Router>
-        <div>
+        <div className="navbar">
           <center>
             <div
               style={{
-                width: "50%",
+                width: "80%",
                 display: "flex",
-                marginTop: 20,
+                marginTop: 0,
+                padding: 20,
                 justifyContent: "space-around",
               }}
             >

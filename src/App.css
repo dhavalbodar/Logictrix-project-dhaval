@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar {
+  background-color: #282c34;
+  color: aliceblue;
+}

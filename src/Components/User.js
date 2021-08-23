@@ -18,7 +18,7 @@ function User() {
       {userData.length > 0 ? (
         userData.map((item) => (
           <>
-            <span>Id : {item.id}</span> |<span> Name : {item.name}</span>
+            <span>Id : {item.id}</span> | <span> Name : {item.name}</span>
             <br />
           </>
         ))

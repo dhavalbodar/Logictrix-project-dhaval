@@ -79,7 +79,12 @@ function Contact() {
               onChange={(e) => setmessage(e.target.value)}
             />
 
-            <Button variant="contained" color="primary" onClick={submitData}>
+            <Button
+              variant="contained"
+              color="primary"
+              onClick={submitData}
+              style={{ marginTop: 10 }}
+            >
               Submit
             </Button>
           </div>
